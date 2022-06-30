@@ -18,12 +18,12 @@ app.use(express.static(__dirname + "/public/chapter4"));
 
 //API for chapter 3 
 app.get("/HomePage", (req, res) => {
-  return res.render("Chapter3-Binar/index");
+  return res.render("homepage/index");
 });
 
 //API for chapter 4
 app.get("/GamePage", (req, res) => {
-  return res.render("RockPaperScissorGame/index");
+  return res.render("gamepage/index");
 });
 
 //Login
