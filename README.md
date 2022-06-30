@@ -4,7 +4,7 @@ NodeJS
 1.  Challenge ada di folder Final_Challenge
 2.  CLI untuk memulai : npm run start
 3.  Login API (POST) : localhost:8001/login
-3.1 Dengan Body :
+4.  Dengan Body :
     {
         "user": "tes",
         "password": "tes"
